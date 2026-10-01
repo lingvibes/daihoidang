@@ -166,7 +166,7 @@ $("#cards").innerHTML = CONGRESSES.map((c) => html`
     <h3>Đại hội ${c.roman} (${c.year})</h3>
     <div class="meta">
       <span><strong>Thời gian:</strong> ${c.time}</span>
-      <span><strong>Địa điểm:</strong> ${c.place} <span class="todo">Cần bổ sung nguồn: địa điểm cụ thể</span></span>
+      <span><strong>Địa điểm:</strong> ${c.place} <span class="todo"></span></span>
       <span><strong>Đại biểu:</strong> ${c.delegates}</span>
     </div>
     <h4>Bối cảnh</h4><p>${c.context}</p>
